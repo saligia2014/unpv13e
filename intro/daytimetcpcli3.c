@@ -3,7 +3,8 @@
 int
 main(int argc, char **argv)
 {
-	int					sockfd, n;
+	int					sockfd;
+    long                n;
 	socklen_t			len;
 	char				recvline[MAXLINE + 1];
 	struct sockaddr_in	servaddr, cliaddr;
